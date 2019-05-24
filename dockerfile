@@ -1,7 +1,7 @@
 # Pull base image.
 FROM ubuntu:latest
 
-ADD addressbook.war addressbook.war
+ADD /var/lib/jenkins/workspace/MavenBuildDockerImage/target/ addressbook.war
 
 #ADD ./var/lib/jenkins/workspace/MavenBuildDockerImage/target/addressbook.war
 
