@@ -7,4 +7,4 @@ ADD addressbook.war addressbook.war
 
 EXPOSE 8080
 
-CMD java - jar HelloWorld.jar
+CMD java - war addressbook.war
